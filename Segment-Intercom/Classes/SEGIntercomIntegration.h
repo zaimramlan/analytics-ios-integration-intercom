@@ -9,8 +9,8 @@
 
 #import <Foundation/Foundation.h>
 #import <Analytics/SEGIntegration.h>
-#import <Intercom/Intercom.h>
-
+//#import <Intercom/Intercom.h>
+@import Intercom;
 
 @interface SEGIntercomIntegration : NSObject <SEGIntegration>
 
